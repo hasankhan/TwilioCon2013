@@ -240,10 +240,10 @@ This registers a new insert script, which uses the apns object to send a push no
 
 * Once you're up and running with source control, head to the 'CONFIGURE' tab and copy the Git URL.
 
-* Copy the Git URL into your browser and replace the repository name with /KuduExec/index.html.  For example, you'd change 
+* Copy the Git URL into your browser and replace the repository name with /DebugConsole/index.html.  For example, you'd change 
 https://twilioCon2k13.scm.azure-mobile.net/sampleScript.git 
 to
-https://twilioCon2k13.scm.azure-mobile.net/KuduExec/index.html.
+https://twilioCon2k13.scm.azure-mobile.net/DebugConsole/index.html.
 
 * Enter your local Git repo credentials when prompted. That will open the Mobile Services console.
 
