@@ -210,7 +210,7 @@ NSDictionary *item = @{
 ```
 This adds a reference to the QSAppDelegate to obtain the device token and then modifies the request payload to include that device token. You must add this code before to the call to the addItem method.
 
-* Back in the management portal, click on the Data tab and then your TodoItem table.  Under the 'Insert' option on the Script tab, replace the prepopulated code with teh following:
+* Back in the management portal, click on the Data tab and then your TodoItem table.  Under the 'Insert' option on the Script tab, replace the prepopulated code with the following:
 
 ```js
 function insert(item, user, request) {
@@ -236,7 +236,7 @@ This registers a new insert script, which uses the apns object to send a push no
 
 * Before getting started, make sure you have an active Twilio account. If you don't have one yet, sign up for a free trial at https://www.twilio.com/try-twilio.  Note your ACCOUNT SID and AUTH TOKEN.
 
-* To use teh Twilio node.js library with your Mobile Services powered app, you need to use Mobile Services npm module support. To do so, you first need to store your scripts in source control. (You can find the instructions for setting up source control via local git at http://www.windowsazure.com/en-us/develop/mobile/tutorials/store-scripts-in-source-control/.)
+* To use the Twilio node.js library with your Mobile Services powered app, you need to use Mobile Services npm module support. To do so, you first need to store your scripts in source control. (You can find the instructions for setting up source control via local git at http://www.windowsazure.com/en-us/develop/mobile/tutorials/store-scripts-in-source-control/.)
 
 * Once you're up and running with source control, head to the 'CONFIGURE' tab and copy the Git URL.
 
